@@ -12,5 +12,4 @@ install: ./gradlew --version
 
 script: 
   - ./gradlew --continue
-  - ./gradlew tasks
-  - ./gradlew export.com.acme.prime.eval
+  - ./gradlew export.com.acme.prime.eval --debug --stacktrace
