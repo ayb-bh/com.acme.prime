@@ -13,3 +13,4 @@ install: ./gradlew --version
 script: 
   - ./gradlew --continue
   - ./gradlew tasks
+  - ./gradlew export.com.acme.prime.eval
