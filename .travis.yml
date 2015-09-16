@@ -5,6 +5,6 @@ jdk:
 env:
   - TERM=dumb
 
-install: ./gradlew --version
+install: ./bash gradlew --version
 
-script: ./gradlew --continue
+script: ./bash gradlew --continue
