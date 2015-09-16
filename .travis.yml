@@ -4,7 +4,10 @@ jdk:
 
 env:
   - TERM=dumb
+  
+before_install:
+ - chmod +x gradlew
 
-install: ./bash gradlew --version
+install: ./gradlew --version
 
-script: ./bash gradlew --continue
+script: ./gradlew --continue
