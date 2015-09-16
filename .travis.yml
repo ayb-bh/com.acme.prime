@@ -10,5 +10,6 @@ before_install:
 
 install: ./gradlew --version
 
-script: ./gradlew --continue
-        ./gradlew tasks
+script: 
+  - ./gradlew --continue
+  - ./gradlew tasks
